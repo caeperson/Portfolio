@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+body { background-color:grey; 
+	  }
+header { background-color: green;
+		 background-repeat: no-repeat;
+		 background-position: center;
+		 margin-left: 80px;
+		 margin-right: 80px;
+		 color: #f0f0f0; 
+		 text-align: center;}
+h1   { line-height: 150%;
+	   text-indent: 1em;
+	   margin: 0;
+	   font-size: 3em;
+	   padding: 0.2em;
+	 }	
+main { margin-left: 80px;
+	   margin-right: 80px;
+	   padding-left: 2em;
+	   padding-right: 2em;
+	   background-color: lightgrey;
+	   border: 1px solid #aec3e3;
+}
+
+img {border: none;
+} 
+header, main {display: block;} 
+#mobile {display: none;}
+#desktop {display: inline; } 
+
+label { font-size: 1.5em; 
+		float: top;
+		text-align: right;
+		width: 8em;
+		padding-right: 1em;
+}
+input, textarea { display: block;
+				  margin-bottom: 1em;
+} 

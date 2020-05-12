@@ -1,0 +1,58 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css Group Project.css">
+	<style>
+        img {float: right}
+    </style>
+</head>
+
+<body>
+  <div id="container">
+  <header>
+  <h1>Sales Tax Calculator</h1>
+  </header>
+  <div id="calculator">
+	<main><br>
+	<img src="usamap.jpeg" alt="Map" float="center-right" width="400" height="auto"><br>
+    
+	<form>
+	<label for="billamt">How much did everything cost together before tax?</label>
+	<input type="text" placeholder="Bill Amount" id="billamt"
+		required="required"><br><br>
+	  
+	<label for="state">What state are you in?</label>
+	    <select id="state">
+            <option disabled selected value="0">-- Choose an Option --</option>
+            <option value="0.04225">Missouri</option>
+            <option value="0.07">Mississippi</option>
+            <option value="0.06350">Connecticut</option>
+            <option value="0.06">Florida</option>
+            <option value="0.06">Idaho</option>
+        </select><br><br><br>
+  
+    <label for "numberofitems">How many items were there?</label>
+	<input id="numberofitems" type="text" placeholder="Number of items"><br>
+            
+	<button type="button" id="calculate">Calculate!</button><br><br>
+ 
+  <!--calculator end-->
+  <div id="totalSalesTax">
+    <sup>$</sup><span id="salestax">0.00</span>
+    <small id="each">each</small>
+	<sup>$</sup><span id="totalamount"> 0.00</span>
+	<small>total</small>
+  </div>
+  </div>
+  <!--totalSalesTax end-->
+
+</div>
+<!--container end-->
+</form>
+</main>
+<script type="text/javascript" src="Js Group project.js"></script>
+
+	
+</body>
+</html>
